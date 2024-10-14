@@ -1,0 +1,52 @@
+body {
+    background-color: hsl(15, 4%, 79%);
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2 {
+    color: rgb(59, 127, 201);
+}
+
+.val {
+    margin-bottom: 10px;
+}
+
+#min,
+#max {
+    outline: none;
+    width: 100px;
+}
+
+#result {
+    margin: 10px;
+    font-size: 50px;
+}
+
+#submit {
+    border: none;
+    background-color: rgb(59, 127, 201);
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+}
+
+#submit:hover {
+    background-color: rgb(44, 113, 187);
+}
+
+#submit:active {
+    background-color: rgb(24, 96, 173);
+}
